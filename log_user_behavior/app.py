@@ -9,7 +9,7 @@ app = Flask(__name__)
 app.config['JWT_SECRET_KEY'] = 'your-secret-key'  # เปลี่ยนเป็นคีย์ของคุณ
 jwt = JWTManager(app)
 
-# ElasticSearch URL และ API Key
+# PLZ GET YOUR ElasticSearch URL และ API Key
 ES_URL = ''
 API_KEY = ''
 
