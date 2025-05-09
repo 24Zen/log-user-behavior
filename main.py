@@ -7,8 +7,8 @@ app = Flask(__name__)
 # Configure Elastic APM
 app.config['ELASTIC_APM'] = {
     'SERVICE_NAME': 'my-flask-app',  # Change this to your service name
-    'SECRET_TOKEN': 'OWZUWWU1WUJRVHRTR3FKYkFua246UEtScEswdnM3dE5rMmVzbWJUZWx3dw==',  # Your API Key
-    'SERVER_URL': 'https://my-observability-project-e8416d.apm.us-east-1.aws.elastic.cloud:443',  # Your APM Server URL
+    'SECRET_TOKEN': '',  # Your API Key
+    'SERVER_URL': '',  # Your APM Server URL
 }
 
 elastic_apm = ElasticAPM(app)
