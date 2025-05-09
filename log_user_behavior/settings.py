@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-w3mux%#@tin$hhw&v9u6fiilf^r(ds303&5irnzv610t%*m=pn'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -44,7 +44,7 @@ INSTALLED_APPS = [
 # เพิ่ม Elastic APM Configuration หลังจาก `INSTALLED_APPS`
 ELASTIC_APM = {
     'SERVICE_NAME': 'user-behavior-app',  # เปลี่ยนเป็นชื่อบริการของคุณ
-    'SERVER_URL': 'https://my-observability-project-e8416d.apm.us-east-1.aws.elastic.cloud:443',  # ใส่ URL ของ APM Server
+    'SERVER_URL': '',  # ใส่ URL ของ APM Server
     'API_KEY': 'your-api-key',  # ใส่ API Key ที่คุณได้รับจาก Elastic Cloud
     'ENVIRONMENT': 'production',  # ตั้งค่าเป็น 'production' หรือ 'staging'
 }
