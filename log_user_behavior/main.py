@@ -21,8 +21,8 @@ import json
 app = Flask(__name__)
 
 # ตั้งค่า Elasticsearch
-ES_URL = 'https://my-observability-project-e8416d.es.us-east-1.aws.elastic.cloud:443/user-logs-/_doc'
-API_KEY = 'OWZUWWU1WUJRVHRTR3FKYkFua246UEtScEswdnM3dE5rMmVzbWJUZWx3dw=='  # ใส่ API Key ของคุณ
+ES_URL = ''
+API_KEY = ''  # ใส่ API Key ของคุณ
 
 # ฟังก์ชันส่ง log
 def send_log_to_elasticsearch(log_data):
