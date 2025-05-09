@@ -1,0 +1,20 @@
+{
+  "name": "log-user-behavior",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix log_user_behavior/frontend run dev",
+    "build": "npm --prefix log_user_behavior/frontend run build",
+    "serve": "npm --prefix log_user_behavior/frontend run serve"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "elastic-apm-node": "^4.12.0",
+    "log-user-behavior": "file:",
+    "pinia": "^3.0.2",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "vite": "^6.3.4"
+  }
+}
