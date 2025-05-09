@@ -10,8 +10,8 @@ app.config['JWT_SECRET_KEY'] = 'your-secret-key'  # เปลี่ยนเป�
 jwt = JWTManager(app)
 
 # ElasticSearch URL และ API Key
-ES_URL = 'https://my-observability-project-e8416d.es.us-east-1.aws.elastic.cloud:443/user-logs-/_doc'
-API_KEY = 'OWZUWWU1WUJRVHRTR3FKYkFua246UEtScEswdnM3dE5rMmVzbWJUZWx3dw=='
+ES_URL = ''
+API_KEY = ''
 
 # ฟังก์ชันเพื่อส่ง log ไปที่ ElasticSearch
 def send_log_to_elasticsearch(log_data):
